@@ -14,20 +14,20 @@ function AboutPage() {
             <ImageSection />
             <Tittle title={'My Skills'} span={'My skills'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'React Js'} progress={'10%'} width={'10%'}/>
-                <SkillsSection skill={'Node Js'} progress={'20%'} width={'20%'}/>
-                <SkillsSection skill={'Android Studio'} progress={'60%'} width={'60%'}/>
-                <SkillsSection skill={'Cyber Seguridad'} progress={'60%'} width={'60%'}/>
-                <SkillsSection skill={'SQL'} progress={'70%'} width={'70%'}/>
-                <SkillsSection skill={'HMTL y CSS'} progress={'30%'} width={'30%'}/>
-                <SkillsSection skill={'Javascript'} progress={'35%'} width={'35%'}/>
-                <SkillsSection skill={'Python'} progress={'20%'} width={'20%'}/>
-                <SkillsSection skill={'Kotlin'} progress={'50%'} width={'50%'}/>
-                <SkillsSection skill={'PHP'} progress={'50%'} width={'50%'}/>
-                <SkillsSection skill={'Terminal'} progress={'70%'} width={'70%'}/>
-                <SkillsSection skill={'Git and GitHub'} progress={'60%'} width={'60%'}/>
+                <SkillsSection skill={'React Js'} progress={'Básico'} width={'33.33%'}/>
+                <SkillsSection skill={'Node Js'} progress={'Básico'} width={'33.33%'}/>
+                <SkillsSection skill={'Android Studio'} progress={'Básico'} width={'33.33%'}/>
+                <SkillsSection skill={'Cyber Seguridad'} progress={'Básico'} width={'33.33%'}/>
+                <SkillsSection skill={'SQL'} progress={'Intermedio'} width={'66.66%'}/>
+                <SkillsSection skill={'HMTL y CSS'} progress={'Básico'} width={'33.33%'}/>
+                <SkillsSection skill={'Javascript'} progress={'Básico'} width={'33.33%'}/>
+                <SkillsSection skill={'Python'} progress={'Básico'} width={'33.33%'}/>
+                <SkillsSection skill={'Kotlin'} progress={'Intermedio'} width={'66.66%'}/>
+                <SkillsSection skill={'PHP'} progress={'Intermedio'} width={'66.66%'}/>
+                <SkillsSection skill={'Terminal'} progress={'Intermedio'} width={'66.66%'}/>
+                <SkillsSection skill={'Git and GitHub'} progress={'Intermedio'} width={'66.66%'}/>
             </div>
-            <Tittle title={'Services'} span={'Services'} />
+            <Tittle title={'Knowledge'} span={'Knowledge'} />
             <div className="services-container">
                 <ServicesSection image={design} title={'Appications Development'} text={'Desarrollo de paginas web y aplicaciones android usando las mejores tecnologias.'}/>
                 <ServicesSection image={intelligence} title={'Artificial Intelligence'} text={'Uso práctico de inteligencia artificial para sistemas y de machine learning.'}/>

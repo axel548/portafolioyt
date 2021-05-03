@@ -30,7 +30,7 @@ function ImageSection() {
                         <p>: Guatemala</p>
                     </div>
                 </div>
-                <a href="https://drive.google.com/file/d/1usVqnMN8WpLGSTKrHTGdmQXI5-QNB14_/view?usp=sharing" target="_blank"><button className="btn">CV</button></a>
+                <a href="https://drive.google.com/file/d/1gsOD5NdVtzn2vEr7nTU4nqxpgSS-UIQ9/view?usp=sharing" target="_blank"><button className="btn">CV</button></a>
             </div>
         </div>
     )

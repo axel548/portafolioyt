@@ -1,7 +1,6 @@
 import React from 'react';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
@@ -25,9 +24,6 @@ function HomePage() {
                     </a>
                     <a href="https://github.com/axel548" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCuWPUWUVzEW9rMQSFzhyKbw" target="_blank" className="icon-holder">
-                        <FontAwesomeIcon icon={faYoutube} className="icon yt" />
                     </a>
                     <a href="https://www.linkedin.com/in/axel-lopez-06606819a" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon lk" />
