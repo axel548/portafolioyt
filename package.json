@@ -19,12 +19,12 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/axel548/portafolio"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
