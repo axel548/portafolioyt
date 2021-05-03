@@ -9,9 +9,8 @@ const portfolios = [
     { 
         id: 1,
         category: 'Android',
-        link1: 'https://github.com/axel548/MUNAM.git',
-        link2: 'https://www.youtube.com/',
-        icon1: 'G',
+        link2: 'https://github.com/axel548/MUNAM.git',
+        icon1: 'Github',
         icon2: 'Y',
         image: port1,
         title: 'Munam',
@@ -20,9 +19,8 @@ const portfolios = [
     {
         id: 2,
         category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
+        link2: 'https://github.com/axel548/Chat-Application',
+        icon1: 'Github',
         icon2: 'Y',
         image: port2,
         title: 'Chat Application',
@@ -31,15 +29,14 @@ const portfolios = [
     {
         id: 3,
         category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
+        link2: 'https://github.com/axel548/E-commerce',
+        icon1: 'Github',
         icon2: 'Y',
         image: port3,
         title: 'E-commerce Web Shop',
-        content: 'It is a e-commerce create with react'
+        content: 'It is a e-commerce create with react for Sharmy'
     },
-    {
+    /*{
         id: 4,
         category: 'Python',
         link1: 'www.youtube.com',
@@ -58,16 +55,15 @@ const portfolios = [
         icon2: 'Y',
         image: port4,
         title: 'Scraper de noticias'
-    },
+    },*/
     {
         id: 6,
         category: 'VB .NET',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
+        link2: 'https://github.com/axel548/Sistema_Bodega',
+        icon1: 'Github',
         icon2: 'Y',
         image: port4,
-        title: 'Sistema de bodega'
+        title: 'Bodega system'
     },
 ]
 
