@@ -29,10 +29,10 @@ function AboutPage() {
             </div>
             <Tittle title={'Knowledge'} span={'Knowledge'} />
             <div className="services-container">
-                <ServicesSection image={design} title={'Appications Development'} text={'Desarrollo de paginas web y aplicaciones android usando las mejores tecnologias.'}/>
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} text={'Uso práctico de inteligencia artificial para sistemas y de machine learning.'}/>
-                <ServicesSection image={gamedev} title={'Technical service'} text={'Servicio de soporte técnico y mantenimiento de computadoras.'}/> 
-                <ServicesSection image={gamedev} title={'Administration SQL'} text={'Uso y administración de SQL para ciencia de datos.'}/> 
+                <ServicesSection image={design} title={'Appications Development'} text={'Development of web pages and android applications using the best technologies.'}/>
+                {/* <ServicesSection image={intelligence} title={'Artificial Intelligence'} text={'Uso práctico de inteligencia artificial para sistemas y de machine learning.'}/> */}
+                <ServicesSection image={gamedev} title={'Technical service'} text={'Computer maintenance and technical support service.'}/> 
+                <ServicesSection image={gamedev} title={'Administration SQL'} text={'Use and administration of SQL for data science.'}/> 
             </div>
         </div>
     );

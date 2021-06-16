@@ -16,7 +16,7 @@ function HomePage() {
                 <p className="h-sub-text">
                     I am a developer who is constantly learning new technologies.
                     <br />
-                    Slogan: everything is possible
+                    <b>everything is possible</b>
                 </p>
                 <div className="icons">
                     <a href="https://www.facebook.com/axelabel.tuchezlopez/" target="_blank" className="icon-holder">
