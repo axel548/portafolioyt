@@ -44,7 +44,7 @@ const portfolios = [
         icon2: 'Y',
         image: port7,
         title: 'Console application',
-        content: 'It is a e-commerce create with angular for Sharmy'
+        content: 'It is a console application'
     },
     /*{
         id: 5,

@@ -29,6 +29,7 @@ function HomePage() {
                         <FontAwesomeIcon icon={faLinkedin} className="icon lk" />
                     </a>
                 </div>
+                
             </header>
         </div>
     );
