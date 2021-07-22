@@ -1,7 +1,7 @@
 import port1 from '../img/portImages/munam.jpg';
 import port2 from '../img/portImages/port1.jpg';
 import port3 from '../img/portImages/e-commerce.jpg';
-import port4 from '../img/portImages/port3.jpg';
+import port4 from '../img/portImages/console.jpg';
 import port6 from '../img/portImages/port5.jpg';
 import port7 from '../img/portImages/port6.jpg';
 
@@ -42,9 +42,9 @@ const portfolios = [
         link2: 'https://github.com/axel548/console',
         icon1: 'Github',
         icon2: 'Y',
-        image: port7,
+        image: port4,
         title: 'Console application',
-        content: 'It is a console application'
+        content: 'It is a console application make in python'
     },
     /*{
         id: 5,
@@ -62,9 +62,9 @@ const portfolios = [
         link2: 'https://github.com/axel548/Sistema_Bodega',
         icon1: 'Github',
         icon2: 'Y',
-        image: port4,
+        image: port6,
         title: 'Bodega system',
-        content: 'It is a system for a bodega'
+        content: 'It is a system for a bodega created in VB .NET and SQL Server'
     },
 ]
 

@@ -25,7 +25,7 @@ function HomePage() {
                     <a href="https://github.com/axel548" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </a>
-                    <a href="https://www.linkedin.com/in/axel-lopez-06606819a" target="_blank" className="icon-holder">
+                    <a href="https://www.linkedin.com/in/axellopez4577" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon lk" />
                     </a>
                 </div>

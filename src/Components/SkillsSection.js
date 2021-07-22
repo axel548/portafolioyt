@@ -1,10 +1,17 @@
 import React from 'react';
 
-function SkillsSection({skill, progress, width}) {
+function SkillsSection({image, skill, progress, width, w='50px'}) {
     return (
         <div className="SkillsSection">
             <div className="skills-container">
-                <h5 className="skill-title">{skill}</h5>
+				<div className="skill-image">
+					<img src={image} alt="skill image" style={{width: w}}/>
+				</div>
+
+				<div className="skill-title">
+          			<h5 className="title">{skill}</h5>
+				</div>
+
                 <div className="skill-bar">
                     <p className="skill-text">{progress}</p>
                     <div className="skill-progress">
@@ -13,6 +20,7 @@ function SkillsSection({skill, progress, width}) {
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     )

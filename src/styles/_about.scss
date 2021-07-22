@@ -137,3 +137,22 @@
         background-color: #037fff;
     }
 }
+
+
+.root {
+	width: 100%;
+	margin: 70px 0px;
+}
+
+.typo{
+	width: 100%;
+}
+
+.heading{
+	display: flex;
+	align-items: center;
+
+	.icon_react{
+		margin: 0 8px;
+	}
+}
