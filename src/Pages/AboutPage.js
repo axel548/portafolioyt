@@ -6,6 +6,7 @@ import ServicesSection from '../Components/ServicesSection';
 import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
 import sql_badge from '../img/badges/sql-for-data-science-1.png';
+import python_badge from '../img/badges/python-for-data-science.png';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
@@ -42,7 +43,10 @@ function AboutPage() {
             <Tittle title={'Badges'} span={'Badges'} />
             <div className="badges">
                 <a href="https://www.credly.com/badges/230b9f77-a7ac-4aaf-90e7-d7f94ebe9e47" target="_blank">
-                    <img src={sql_badge} height="130" width="130" />
+                    <img src={sql_badge}/>
+                </a>
+                <a className="badge-Circle" href="https://www.credly.com/badges/d2c0f336-fa46-478c-9dc3-4a23e92f003e/" target="_blank">
+                    <img src={python_badge}/>
                 </a>
             </div>
 
